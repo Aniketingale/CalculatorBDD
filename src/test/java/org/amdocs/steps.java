@@ -1,4 +1,5 @@
 package org.amdocs;
+
 import static org.junit.Assert.assertEquals;
 
 import cucumber.api.java.en.Given;
@@ -11,6 +12,7 @@ public class steps {
 	@Given("the calculator to perform addition")
 	public void the_calculator_to_perform_addition() {
 		cal =new Calculator();
+		
 		
 	}
 
